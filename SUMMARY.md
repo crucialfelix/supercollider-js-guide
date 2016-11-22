@@ -2,43 +2,30 @@
 
 * [Introduction](README.md)
 
-* Installation
-* How and where to use supercollider.js
-  * Run .js on the command line
-  * Server and Web browser
+* [Node.js installation and usage](./nodejs/index.md)
+  * [nvm and node](./nodejs/nvm.md)
+  * [npm](./nodejs/npm.md)
+  * [Project structure & package.json](./nodejs/project-structure.md)
+  * REPL
+  * Command line
+  * scripts and bin
+  * Webservers and websockets
   * Electron
-* JavaScript
-  * Babel, ES2015 and Beyond
-  * Flow Type
-  * Classes
-  * var let const
-  * Arrow functions
-  * Destructuring
-  * Promises
-  * Await & Async
-  * Generators
-  * JavaScript Template Literal
-  * Static methods
-  * Good editors
-  * Linting
-  * Testing
-  * Compiling other languages to JavaScript
 
-* lang - The SuperCollider language
-  * Install and setup
+* lang - SuperCollider language
+  * [Install and configuration](./lang/install-and-configuration.md)
   * Interpreting supercollider code
-  * Executing .scd files on the command line
+  * Executing .scd files
   * Adding Quarks
-  * sc.lang - JavaScript Template Literal
-  * atom-supercollider
+  * [atom-supercollider](./lang/atom-supercollider.md)
 
 * server - SuperCollider server
   * Install, setup and startup
+  * server.boot
   * Server events and subscriptions
   * OSC messages
   * Immutable state
   * Node and Buffer Allocators
-  * Where are the Node classes ?
   * Patterns ?
   * SynthDefs
   * map functions
@@ -51,3 +38,27 @@
   * SynthEventList
   * SynthStream
   * AudioBus
+
+* JavaScript
+  * [Babel, ES2015 and Beyond](./javascript/babel-and-beyond.md)
+  * require vs import
+  * Classes
+  * var let const
+  * Arrow functions
+  * Destructuring
+  * Promises
+  * [Await & Async](./javascript/await-and-async.md)
+  * [Generators](./javascript/generators.md)
+  * JavaScript Template Literal
+  * Static methods
+  * Flow Type
+  * Tooling
+    * Good Editors
+    * Chrome node debugger
+    * Linting
+    * Testing
+  * Compile to JavaScript
+
+* [Interesting Libraries](./interesting-libraries.md)
+
+* [API](./api/index.md)

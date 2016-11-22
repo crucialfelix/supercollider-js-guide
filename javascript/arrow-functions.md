@@ -1,0 +1,12 @@
+# Arrow functions
+
+```javascript
+() =>
+
+() => {
+
+}
+
+_ =>
+
+```
