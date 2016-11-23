@@ -41,11 +41,11 @@
 
 * JavaScript
   * [Babel, ES2015 and Beyond](./javascript/babel-and-beyond.md)
-  * require vs import
+  * [require vs import](./javascript/require-vs-import.md)
   * Classes
   * var let const
-  * Arrow functions
-  * Destructuring
+  * [Arrow functions](./javascript/arrow-functions.md)
+  * [Destructuring](./javascript/destructuring.md)
   * Promises
   * [Await & Async](./javascript/await-and-async.md)
   * [Generators](./javascript/generators.md)
